@@ -1,0 +1,12 @@
+# Tecnologia y Desarrollo
+
+FutureHands utiliza un conjunto de tecnologías cuidadosamente seleccionadas para garantizar la eficiencia, la seguridad y la escalabilidad de la plataforma:
+
+* **Frontend (Flutter):** Elegimos Flutter por su capacidad para crear interfaces de usuario atractivas y de alto rendimiento tanto para web como para móvil con una única base de código. Esto nos permite optimizar el tiempo y los recursos de desarrollo.
+* **Backend (Node.js, Express.js):** Para el backend, utilizamos Node.js con Express.js, una combinación popular y robusta que nos permite construir una API escalable y eficiente. Esto se complementa con un sistema de caché (Redis) para optimizar el rendimiento y PostgreSQL para el almacenamiento de datos no transaccionales, como información de usuarios. La interacción con la blockchain se gestiona mediante la biblioteca Web3.js.
+* **Smart Contracts (Solidity, Hardhat):** Los smart contracts, la lógica de negocio de la plataforma, se desarrollan en Solidity utilizando Hardhat, un entorno de desarrollo que facilita la compilación, prueba y despliegue de contratos en la red Polygon.
+* **Blockchain (Polygon):** Polygon, una solución de capa 2 de Ethereum, es la base de nuestra plataforma. Ofrece la seguridad de Ethereum con mayor escalabilidad, velocidad y menores costos de transacción, crucial para la viabilidad de FutureHands.
+* **Almacenamiento (IPFS, PostgreSQL):** Utilizamos IPFS para el almacenamiento descentralizado de información crucial, garantizando su disponibilidad y resistencia a la censura. PostgreSQL se utiliza para el almacenamiento eficiente de datos no transaccionales.
+* **Servicios de terceros:** Integramos servicios de KYC/AML para el cumplimiento normativo y oráculos como Chainlink para obtener datos externos de forma segura y confiable.
+
+El desarrollo se gestiona mediante una metodología ágil (Scrum), con iteraciones cortas y entregas frecuentes para asegurar la flexibilidad y la adaptación a las necesidades cambiantes. Implementamos un riguroso proceso de control de calidad que incluye revisiones de código, pruebas unitarias y de integración. La seguridad es una prioridad, y realizamos auditorías de seguridad externas tanto del código como de la infraestructura. La plataforma se desplegará en una infraestructura híbrida que combina servicios en la nube (AWS o Azure) con servidores propios para garantizar la alta disponibilidad y la redundancia.
